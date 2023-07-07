@@ -1,0 +1,6 @@
+[build]
+  command = "node ./src/server.js"
+  publish = "public"
+
+[dev]
+  command = "node server.js"
