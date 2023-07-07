@@ -1,5 +1,5 @@
 [build]
-  command = "node ./src/server.js"
+  command = "npm install"
   publish = "public"
 
 [dev]
