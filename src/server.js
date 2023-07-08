@@ -4,7 +4,7 @@ const routes = require('./routes');
 const init = async () => {
   const server = Hapi.server({
     port: 3000,
-    host: 'https://nugrawan-server.netlify.app',
+    host: 'https://nugrawan-server.netlify.app/notes',
     routes: {
       cors: {
         origin: ['*'],

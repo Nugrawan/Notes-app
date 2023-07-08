@@ -1,5 +1,5 @@
 [build]
-  command = "npm install && node ./src/server.js"
+  command = "npm run start"
   publish = "src"
 
 [dev]
